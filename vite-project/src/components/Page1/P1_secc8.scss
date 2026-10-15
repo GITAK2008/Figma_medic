@@ -1,0 +1,94 @@
+.Sec8{
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .Cetyr{
+        width: 992px;
+        height: 363px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .tezxxt{
+            width: 160px;
+            height: 66px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            h1{
+                font-family: Work Sans;
+                font-size: 18px;
+                color: #159EEC;
+            }
+            p{
+                font-family: Yeseva One;
+                font-size: 32px;
+                color: #1F2B6C;
+            }
+        }
+        .Depeche{
+            width: 992px;
+            height: 233px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .Mode{
+                width:233px ;
+                height: 233px;
+                display: flex;
+                border-radius: 10px;
+                align-items: center;
+                justify-content: center;
+                background-color: #BFD2F8;
+                .Jesus{
+                    width: 148px;
+                    height: 131px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    justify-content: space-between;
+                    h1{
+                        font-family: Work Sans;
+                        font-size: 18px;
+                        color: #1F2B6C;
+                    }
+                    p{
+                        font-family: Work Sans;
+                        font-size: 15px;
+                        color: #1F2B6C;
+                    }
+                }
+            }
+            .Mode1{
+                width:233px ;
+                height: 233px;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #1F2B6C;
+                .Jesus{
+                    width: 148px;
+                    height: 131px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    justify-content: space-between;
+                    h1{
+                        font-family: Work Sans;
+                        font-size: 18px;
+                        color: #BFD2F8;
+                    }
+                    p{
+                        font-family: Work Sans;
+                        font-size: 16px;
+                        color: #BFD2F8;
+                    }
+                }
+            }
+        }
+    }
+}

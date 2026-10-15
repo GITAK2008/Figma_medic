@@ -1,0 +1,87 @@
+.Sec5{
+    width: 100vw;
+    height: 873px;
+    background-image: url(../../assets/Group\ 51.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .Sec5_cen{
+        width: 1300px;
+        height: 655px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .Text{
+            width: 407px;
+            height: 173px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-evenly;
+            h1{
+                font-family: Yeseva One;
+                font-size: 32px;
+                color: #159EEC;
+            }
+            p{
+                font-family: Work Sans;
+                font-size: 16px;
+                color: black;
+            }
+        }
+        .Mess{
+            width: 431px;
+            height: 545px;
+            background-color: #1F2B6C;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: start;
+            .Mess_top{
+                width: 431px;
+                height: 203px;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                .Field{
+                    width: 215.5px;
+                    height: 51px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    border: 0.2px solid white;
+                    h1{
+                        font-family: Work Sans;
+                        font-size: 16px;
+                        color: #FCFEFE;
+                    }                 
+                }
+            }
+            .Mess_box{
+                width: 431px;
+                height: 276px;
+                h1{
+                    position: relative;
+                    top: 20px;
+                    left: 20px;
+                    font-family: Work Sans;
+                    font-size: 16px;
+                    color: #FCFEFE;
+                } 
+            }
+            .Sub_button{
+                width: 431px;
+                height: 66px;
+                background-color: #BFD2F8;
+                font-family: Work Sans;
+                font-size: 16px;
+                color: #1F2B6C;
+                border-radius: 0px 0px 10px 10px; 
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+.Sec1{
+    width: 100vw;
+    height: 750px;
+    background-image: url(../../assets/doctor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Sec1_cen{
+        width: 1100px;
+        height: 400px;
+        .Headline{
+            width: 800px;
+            height: 316px;
+            .Text{
+                width: 800px;
+                height: 239px;
+                h1{
+                    font-family: Work Sans;
+                    font-size: 34px;
+                    color: #159EEC;
+                }
+                p{
+                    font-family: Yeseva One;
+                    color: #1F2B6C;
+                    font-size: 75px;
+                }
+            }
+            .Button{
+                width: 190px;
+                height: 55px;
+                background-color: #BFD2F8;
+                border: none;
+                border-radius: 30px;
+                font-size: 18px;
+            }
+        }
+        .Book_sec{
+            width: 1100px;
+            height: 130px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            top: 180px;
+            position: relative;
+            .Book1{
+                width: 316px;
+                height: 130px;
+                background-color: #1F2B6C;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                font-family: Work Sans;
+                color: white;
+                border-radius: 8px;
+            }
+            .Book2{
+                width: 316px;
+                height: 130px;
+                background-color: #BFD2F8;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                font-family: Work Sans;
+                color: #1F2B6C;
+                border-radius: 8px;
+            }
+            .Book3{
+                width: 316px;
+                height: 130px;
+                background-color: #159EEC;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                font-family: Work Sans;
+                color: white;
+                border-radius: 8px;
+            }
+        }
+    }
+}

@@ -1,0 +1,134 @@
+footer{
+    width: 100vw;
+    height: 427px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2B6C;
+    .Centrff{
+        width: 992px;
+        height: 284px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .kont{
+            width: 991px;
+            height: 169px;
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            .raz{
+                width: 241px;
+                height: 110px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h1{
+                    font-family: Yeseva One;
+                    color: #BFD2F8;
+                    font-size: 36px;
+                }
+                p{
+                    font-family: Work Sans;
+                    color: white;
+                    font-size: 18px;
+                }
+            }
+            .dva{
+                width: 142px;
+                height: 169px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h1{
+                    font-family: Work Sans;
+                    font-size: 18px;
+                    color: white;
+                }
+                .text{
+                    width: 103px;
+                    height: 109px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    font-family: Work Sans;
+                    color: white;
+                    font-size: 16px;
+                }
+            }
+            .tri{
+                width: 236px;
+                height: 169px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h1{
+                    font-family: Work Sans;
+                    font-size: 18px;
+                    color: white;
+                }
+                .text1{
+                    width: 236px;
+                    height: 109px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    font-family: Work Sans;
+                    color: white;
+                    font-size: 16px;
+                }
+            }
+            .four{
+                width: 272px;
+                height: 110px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h1{
+                    font-family: Work Sans;
+                    font-size: 18px;
+                    color: white;
+                }
+                .Savage{
+                    width: 272px;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    background-color: #BFD2F8;
+                    font-family: Work Sans;
+                    color: #1F2B6C;
+                    border: none;
+                    border-radius: 10px;
+                    font-size: 16px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .polosa{
+            width: 991px;
+            height: 1px;
+            background-color: white;
+        }
+        .konec{
+            width: 991px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h1{
+                font-family: Work Sans;
+                font-size: 16px;
+                color: white;
+            }
+            .knopk{
+                width: 112px;
+                height: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+    }
+}

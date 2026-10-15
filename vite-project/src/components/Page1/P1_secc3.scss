@@ -1,0 +1,166 @@
+.Sec3{
+    width: 100vw;
+    height: 742px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .Sec3_cen{
+        width: 1100px;
+        height: 614px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .Text{
+            width: 301px;
+            height: 68px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h1{
+                font-family: Work Sans;
+                font-size: 23px;
+                color: #159EEC;
+            }
+            p{
+                font-family: Yeseva One;
+                font-size: 32px;
+                color: #1F2B6C;
+            }
+        }
+        .Services{
+            width: 1100px;
+            height: 484px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .Left{
+                width: 158px;
+                height: 484px;
+                border: 1px solid gray;
+                border-radius: 7px;
+                display: grid;
+                h1{
+                    font-family: Work Sans;
+                    font-size: 14px;
+                    color: #BFD2F8;
+                }
+                .P_white{
+                    font-family: Work Sans;
+                    color: #BFD2F8;
+                }
+                .Block1{
+                    width: 157px;
+                    height: 110px;
+                    background-color: white;
+                    display: grid;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    font-family: Work Sans;
+                    grid-column: 1/2;
+                    grid-row: 1/2;
+                    border-color: #1F2B6C;
+                    border-radius: 7px 7px 0px 0px;
+                }
+                .Block2{
+                    width: 157px;
+                    height: 110px;
+                    background-color: #1F2B6C;
+                    display: grid;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    font-family: Work Sans;
+                    grid-column: 1/2;
+                    grid-row: 2/3;
+                }
+                .Block3{
+                    width: 157px;
+                    height: 110px;
+                    background-color: white;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    font-family: Work Sans;
+                    grid-column: 1/2;
+                    grid-row: 3/4;
+                }
+                .Block4{
+                    width: 157px;
+                    height: 110px;
+                    background-color: white;
+                    display: grid;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    font-family: Work Sans;
+                    grid-column: 1/2;
+                    grid-row: 4/5;
+                }
+                .Block5{
+                    background-color: #1F2B6C;
+                    display: grid;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: Work Sans;
+                    grid-column: 1/2;
+                    grid-row: 5/6;
+                    border-color: #1F2B6C;
+                    border-radius: 0px 0px 7px 7px; 
+                    grid-template-rows: 40px
+                }
+            }
+            .Center{
+                width: 470px;
+                height: 385px;
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: space-between;
+                h1{
+                    font-family: Work Sans;
+                    font-size: 26px;
+                    color: black;
+                }
+                .List{
+                    width: 470px;
+                    height: 107px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    ul{
+                        display: grid;
+                        gap: 20px;
+                        grid-template-columns: repeat(2, 1fr);
+                        li{
+                            font-size: 20px;
+                            color: #159EEC;
+                        }
+                        li a{
+                            font-family: Work Sans;
+                            color: black;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                p{
+                    font-family: Work Sans;
+                }
+            }
+            .Pics{
+                width: 324px;
+                height: 484px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+    }
+}
